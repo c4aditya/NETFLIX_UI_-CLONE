@@ -1,0 +1,317 @@
+
+.upper-home{
+    position: relative;
+    
+ background-color: black;
+}
+
+.nev1{
+    
+    display: flex;
+    
+    
+}
+.nev1 h1{
+    color: red;
+    margin-left: 50px;
+}
+
+.nev1 ul {
+     
+     margin-top: 30px;
+    display: flex;
+    column-gap: 50px;
+    margin-left: 150px;
+}
+
+.nev1 ul li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+
+}
+
+.upper-image{
+    background-color: white;
+    
+}
+
+
+
+.upper-image img{
+    background-size: cover;
+
+    background-repeat: no-repeat; 
+    
+    
+    background-color: white;
+
+    width: 100%;
+}
+
+.upper-image{
+    position: relative;
+     
+}
+
+.upper-image-content{
+    margin-top: 130px;
+    font-weight: bolder;
+    margin-left: 50px;
+    position: absolute;
+    top: 15px;
+    
+    width: 30%;
+    padding: 15px;
+    color: white;
+    
+}
+
+.upper-image-content h1{
+    font-size: 50px;
+}
+
+.upper-buttons{
+    
+    display: flex;
+    padding: 10px;
+    column-gap: 15px;
+
+}
+
+.play{
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.more{
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: gray;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.play:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.more:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.image-section{
+    display: flex;
+}
+
+/* movei ki image aur usj */
+.moveis{
+    
+    background-color: black;
+    padding: 15px;
+  overflow: scroll;
+    display: flex;
+    
+    
+  
+
+}
+.moveis img {
+    margin-left: 50px;
+    transition: transform 0.3s ease; 
+  /* smooth zoom ke liye  */
+  /* display: block; */
+  
+}
+.moveis img:hover{
+
+  zoom: 15px;
+  transform: scale(1.4);
+  /* zoom krne ke liye  */
+}
+
+.video-player{
+    position: absolute;
+    top: 800px;
+    align-items: center;
+    
+    transition: transform 0.3s ease; 
+
+
+    
+}
+
+/* UPcoming movei css */
+
+.upcomingmoveis{
+    background-color: black;
+    margin-top: 15px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    overflow: scroll;
+}
+.upcomingmoveis img{
+    margin-left: 20px;
+    transition: transform 0.3s ease; 
+}
+.upcomingmoveis img:hover{
+    zoom:15px;
+    transform: scale(1.4);
+}
+
+.movei-type{
+    color: white;
+    h1{
+        margin-left: 50px;
+    }
+    
+}
+
+/* -------------------------------------------- */
+@media(max-width:1024px){
+      
+    .mid {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .btn1{
+        width:28%;
+        padding: 22px;
+    }
+
+    .tv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tvimage video{
+        top: 386px;
+        right: 424px;
+    }
+
+    .text1{
+        margin-right: 250px;
+    }
+
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .subimage{
+        left: 100px;
+    
+    }
+
+    .text2{
+        margin-left: 165px;
+        
+    }
+
+    .watch{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .watch-img video{
+        left: 100px;
+    }
+
+    .context{
+        margin-left: 100px;
+    }
+
+    .kid{
+        display: flex;
+        flex-direction: column;
+    }
+    .kidcontent{
+        margin-left: 100px;
+    }
+    
+}
+
+@media(max-width:768px){
+      
+    .mid {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .btn1{
+        width:28%;
+        padding: 22px;
+    }
+
+    .tv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tvimage video{
+        top: 386px;
+        left: 130px;
+    }
+
+    .text1{
+        margin-right: 250px;
+    }
+
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .subimage{
+        left: 100px;
+    
+    }
+
+    .text2{
+        margin-left: 165px;
+        
+    }
+
+    .watch{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .watch-img video{
+        left: 100px;
+    }
+
+    .context{
+        margin-left: 100px;
+    }
+
+    .kid{
+        display: flex;
+        flex-direction: column;
+    }
+    .kidcontent{
+        margin-left: 100px;
+    }
+    
+}
+
+
+

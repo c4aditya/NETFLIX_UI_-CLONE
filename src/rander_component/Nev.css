@@ -1,0 +1,25 @@
+.nev{
+    
+    display: flex;
+    
+}
+.signin{
+    background-color: red;
+    color: white;
+    width: 10%;
+    margin-left: 1200px;
+    height: max-content;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+.nev h1{
+    color: red;
+    font-weight: 500px;
+    margin-left: 15px;
+}

@@ -1,0 +1,68 @@
+.main{
+    background-color: black;
+    color: rgb(223, 215, 215);
+    margin-top: 25px;
+
+    height: 500px;
+    
+}
+.main h4{
+margin-top: 100px;
+margin-left: 180px;
+}
+.main h3{
+margin-left: 180px;
+
+}
+
+
+.allfooters{
+    display: flex;
+    
+    border: 2px solid black;
+    
+}
+
+.FAQ{
+    border: 2px solid black;
+    margin-left: 140px;
+}
+
+.FAQ ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.Help{
+    border: 2px solid black;
+    margin-left: 200px;
+}
+
+.Help ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.Account{
+    border: 2px solid black;
+    margin-left: 200px;
+}
+
+.Account ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.Media{
+    border: 2px solid black;
+    margin-left: 200px;
+}
+
+.Media ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+
+  

@@ -1,0 +1,43 @@
+.laptop{
+    border:2px solid black;
+    margin-top: 150px;
+    height: 150px;
+    width: 250px;
+    margin-left: 600px;
+    font-size: small;
+}
+
+
+.main_nev{
+    background-color: white;
+}
+
+.setup1{
+    
+    margin-top: 100px;
+    
+    text-align: center;
+
+}
+
+.setup1 img{
+    height: 100px;
+    width: 250px;
+}
+.text3{
+    
+    margin-top: 20px;
+    width: 25%;
+    margin-left: 580px;
+}
+
+.btn3{
+    margin-top: 25px;
+    margin-left: 620px;
+    width: 20%;
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}

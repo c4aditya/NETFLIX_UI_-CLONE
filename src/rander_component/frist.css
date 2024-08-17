@@ -1,0 +1,336 @@
+
+.upper {
+  padding: 15px;
+    
+    display: flex;
+   
+
+  }
+  .logoimg h1{
+    
+    color: red;
+  
+    
+  
+    
+  }
+  .background{
+    padding: 15px;
+    color: white;
+    background-image: url('/public/images/background_image_of_page.jpg');
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; 
+    height: fit-content;
+    
+  
+  }
+  .login{
+    width: 30%;
+    background-color: red;
+    border-radius: 10px;
+    
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  .lang{
+    width: 30%;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+   
+  .buttons{
+    width: 50%;
+    float: right;
+    
+    margin-left: 900px;
+    
+  }
+  .language {
+    
+    margin-top: 10px; 
+    transition: opacity 0.3s ease-in-out; 
+    opacity: 0; 
+    position: absolute; 
+    margin-left: 1170px;
+  }
+  
+  .language.visible {
+    opacity: 1; 
+  }
+  
+  .language.hidden {
+    opacity: 0; 
+  }
+  
+  .dropdown-item {
+    background-color: #f9f9f9;
+    border: none; 
+    color: black; 
+    padding: 10px 20px; 
+    text-align: left; 
+    cursor: pointer; 
+    display: block; 
+    width: 100%;
+    text-decoration: none; 
+  }
+  
+  /* Change color of dropdown items on hover */
+  .dropdown-item:hover {
+    background-color: #ddd; /* Light gray background on hover */
+  }
+  .mid{
+    opacity: 4px;
+    margin-top: 200px;
+    margin-left: 400px;
+  }
+  .mid h1{
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .mid p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+ 
+
+  .mid_form input{
+    
+    width: 40%;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    
+  border-radius: 10px;
+    margin-bottom: 250px;
+  }
+
+  .btn1{
+    
+    background-color: rgb(186, 15, 15);
+    font-size: 20px;
+    font-weight: bolder;
+    width: 15%;
+    padding: 22px;
+    border-radius: 15px;
+    margin-left: 10px;
+    color: white;
+  }
+
+
+  .tv{
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 2px solid black;
+    padding: 15px;
+    justify-content: center;
+    position: relative;
+    margin-top: 15px;
+  }
+  .text1{
+    
+    
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    
+  }
+
+
+  .tvimage{
+    margin-left: 50px;
+    
+    
+    z-index: 10;
+  
+  
+  }
+
+.tvimage img{
+  z-index: 10;
+  position: relative;
+}
+
+  .tvimage video{
+    
+    z-index: 1;
+    top: 128px;
+    right: 130px;
+    height: 249px;
+    width: 462px;
+    position: absolute;
+  }
+
+  .mobile{
+    background-color: black;
+    margin-top: 15px;
+    display: flex;
+    position: relative; 
+    justify-content: center;
+    /* position relative iss liye koyki sb image pe mai yek aur div dikhana chahta hu  */
+
+  }
+  .subimage{
+    display: flex;
+    border:2px solid white;
+    border-radius: 15px;
+    background-color: black;
+    justify-content: center;
+    position: absolute;
+    top: 407px;
+    left: 150px; 
+    z-index: 2; 
+    margin-bottom: 50px;
+    color: white;
+    width: 400px;
+    height: fit-content;
+    padding: 10px;
+    
+
+  }
+  .subimage img{
+    margin-right: 25px;
+  }
+  .subim{
+    
+    position: relative; 
+    z-index: 1; 
+    margin-top: 50px;
+    
+  }
+ .text2{
+  width: 50%;
+  
+  margin-top: 200px;
+  color: white;
+ }
+ .text2 h1{
+  font-size: 50px;
+ }
+
+ .watch{
+  padding: 15px;
+  display: flex;
+  border: 2px solid black;
+  margin-top: 25px;
+  background-color: black;
+ }
+
+ .watch-img{
+  position: relative;
+ }
+
+ .watch-img img{
+  z-index: 10;
+  position: relative;
+ }
+
+ .watch-img video{
+   z-index: 2;
+    top: 50px;
+    right:120px;
+    
+    height: 249px;
+    width: 402px;
+    position: absolute;
+ }
+
+ .context{
+
+  margin-top: 150px;
+ }
+ .context{
+  width: 50%;
+  
+  margin-top: 180px;
+  color: white;
+ }
+ .context h1{
+  font-size: 50px;
+ }
+
+
+ .kid{
+  padding: 15px;
+  display: flex;
+  border: 2px solid black;
+  margin-top: 25px;
+  background-color: black;
+
+ }
+ .kidcontent{
+  width: 50%;
+  
+  margin-top: 180px;
+  color: white;
+ }
+ .kidcontent h1{
+  font-size: 50px;
+ }
+
+ .questions1{
+  text-align: center;
+  border:2px solid black;
+  margin-top: 15px;
+ }
+ .questionstype{
+  display: flex;
+ }
+ .questionstype h1{
+
+  background-color:gray ;
+  color: white;
+  
+ }
+ .questionstype button{
+  border: 2px solid black;
+  background-color: red;
+  width: 50%;
+  padding: 0px;
+  color: white;
+  margin-left: 150px;
+ }
+ 
+ .answer{
+    margin-top: 25px; 
+    transition: opacity 0.3s ease-in-out; 
+    opacity: 0; 
+    position: absolute; 
+    border: 2px solid black;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: gray;
+    color: white;
+ }
+.answer.visible{
+  opacity: 1;
+}
+.answer.hidden{
+  opacity: 0;
+}
+
+.end-form{
+ background-color: black;
+  border: 2px solid black;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.end-form h1{
+  color:white ;
+  font-size: 25px;
+  margin-top: 150px;
+  font-weight: bold;
+}
